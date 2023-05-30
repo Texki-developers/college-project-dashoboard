@@ -1,0 +1,28 @@
+.Sidebar {
+  width: 100%;
+  display: grid;
+  color: white;
+  li {
+    color: white;
+    //   margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+    list-style: none;
+    &:hover {
+      background: #292727;
+    }
+  }
+}
+.sidebar-container {
+  padding: 20px;
+  background: #000;
+  height: calc(100vh - 80px);
+}
+
+.logout {
+  margin-top: 30px;
+  padding-left: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}

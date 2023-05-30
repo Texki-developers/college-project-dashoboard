@@ -1,0 +1,40 @@
+.Login{
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    display: grid;
+    place-items: center;
+    form{
+        width: 400px;
+        height: auto;
+        display: grid;
+        gap: 20px;
+        border-radius: 10px;
+        padding: 30px 20px;
+        background: #000;
+        p {
+            color: white;
+            cursor: pointer;
+          }
+        h1{
+            color: white;
+        }
+        input{
+            width: 100%;
+            outline: none;
+            padding-left: 20px;
+            height: 40px;
+            border: 1px solid #009991;
+            border-radius: 4px;
+            background: white;
+        }
+        button{
+            height: 40px;
+            background: #009991;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-weight: 600;
+        }
+    }
+}

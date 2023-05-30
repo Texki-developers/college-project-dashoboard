@@ -1,0 +1,40 @@
+.content {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  .boxs {
+    width: 50vw;
+    background: black;
+    display: grid;
+    place-items: center;
+    max-height: 500px;
+    overflow: auto;
+    border-radius: 10px;
+  }
+  form {
+    color: white;
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+    div {
+      display: grid;
+    }
+    .input {
+      width: 100%;
+      outline: none;
+      padding-left: 20px;
+      height: 40px;
+      border: 1px solid #009991;
+      border-radius: 4px;
+      background: white;
+    }
+    button {
+      height: 40px;
+      background: #009991;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      font-weight: 600;
+    }
+  }
+}
